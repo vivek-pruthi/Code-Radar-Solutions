@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    float  n ;
+    float n;
     scanf("d%",&n);
     printf("d%",n);
 
