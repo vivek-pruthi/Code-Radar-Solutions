@@ -6,8 +6,7 @@ int main () {
     printf("You entered: %d", a);
 
     return 0;
-}
-         
+ 
 
 
 
