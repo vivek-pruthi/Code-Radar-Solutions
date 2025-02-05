@@ -7,4 +7,3 @@ int main(){
     printf("Octal: %d",num);
     return 0;
     }
-}
