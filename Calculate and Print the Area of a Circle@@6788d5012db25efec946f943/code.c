@@ -1,10 +1,12 @@
 #include <stdio.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
 int main() {
-    printf("%s", welcome());
+    float r;
+    float pi;
+    float Area;
+    scanf("%f&f",&r,&pi);
+    pi = 3.14
+    Area = pi*r*r
+    printf("Area: %.2f",Area);
     return 0;
 }
