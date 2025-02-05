@@ -1,9 +1,8 @@
-#include <stdio.h>
-
-int main(){
-
-    char c(20);
-    scanf("%c",&c);
-    printf("You entered: %c",&c);
-    return 0;
+#include int main(){
+char str[20];
+scanf("%d",&str);
+printf("You entered: %d",&str);
+scanf("%s",&str);
+printf("You entered: %s",&str);
+return 0;
 }
