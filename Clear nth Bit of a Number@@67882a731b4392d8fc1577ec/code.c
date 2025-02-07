@@ -3,7 +3,7 @@ int main(){
     int a;
     int b;
     scanf("%d%d",&a,&b);
-    int bit = ((a>>b)&1);
-    printf("%d\n",bit);
+    a = a & ~(1<<b);
+    printf("%d\n",a);
     return 0;
 }
