@@ -4,6 +4,6 @@ int main(){
     int b;
     scanf("%d%d",&a,&b);
     a = a^(1<<b);
-    printf("%d\n",bit);
+    printf("%d\n",a);
     return 0;
 }
