@@ -8,7 +8,7 @@ int main(){
         }
     else
     {
-        printf("Speacial Character")
+        printf("Speacial Character");
 
     }
     return 0;
