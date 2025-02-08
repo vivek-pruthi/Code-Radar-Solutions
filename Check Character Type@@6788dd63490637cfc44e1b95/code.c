@@ -4,11 +4,11 @@ int main(){
     scanf("%s",&ch);
     if (ch==a,e,i,o,u)
     {
-        printf("Vowel");
+        printf("Vowel\n");
         }
     else
     {
-        printf("Speacial Character");
+        printf("Speacial Character\n");
 
     }
     return 0;
