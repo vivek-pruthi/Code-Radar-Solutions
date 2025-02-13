@@ -17,7 +17,7 @@ int main(){
         printf("Digit/n");
     }
     else {
-        printf("Special Character/n")
+        printf("Special Character/n");
     }
     return 0;
 
