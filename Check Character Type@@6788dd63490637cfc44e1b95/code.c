@@ -14,10 +14,10 @@ int main(){
     }
     else if (isdigit(ch))
     {
-        printf("Digit/n");
+        printf("Digit\n");
     }
     else {
-        printf("Special Character/n");
+        printf("Special Character\n");
     }
     return 0;
 
