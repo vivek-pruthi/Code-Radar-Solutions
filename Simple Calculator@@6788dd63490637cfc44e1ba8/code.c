@@ -14,10 +14,10 @@ int main() {
         if (num2 != 0) {
             printf("%d\n", num1 / num2);
         } else {
-            printf("Error\n");
+            printf("error\n");
         }
     } else {
-        printf("Error\n");
+        printf("error\n");
     }
 
     return 0;
