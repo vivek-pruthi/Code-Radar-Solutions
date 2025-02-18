@@ -1,5 +1,5 @@
 #include <stdio.h>
-// #include <ctype.h>
+#include <ctype.h>
 int main(){
     char ch;
     scanf("%s",&ch);
@@ -13,7 +13,7 @@ int main(){
         printf("Consonant\n");
 
     }
-    else if (isdigit(ch))
+    else if (digit)
     {
         printf("Digit\n");
     }
