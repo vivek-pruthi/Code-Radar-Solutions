@@ -5,7 +5,7 @@ int main(){
     if( n>0){
         for (int i = 0 ; i >= n ; i++){
             printf("%d", i);
-            if (i > N) {
+            if (i > n) {
             printf(" "); 
         }
         }
@@ -14,7 +14,7 @@ int main(){
     else {
         for (int i = 0 ; i <= n ; i--){
             printf("%d", i);
-            if (i < N) {
+            if (i < n) {
             printf(" "); 
     }
 }
