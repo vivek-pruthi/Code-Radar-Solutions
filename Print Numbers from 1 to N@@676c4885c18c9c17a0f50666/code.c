@@ -1,23 +1,24 @@
-#include <stdio.h>
-
-int main() {
-    int N;
-    scanf("%d", &N);
+#include<stdio.h>
+int main(){
+    int n;
+    scanf("%d",&n);
+    if( i>n){
+        for (int i = 0 ; i >= n ; i++){
+            printf("%d", i);
+            if (i > N) {
+            printf(" "); 
+        }
+        }
     
-    for (int i = 0; i <= N; i++){
-        for (int j = 0: i<=N ; j--){
-            printf("%d", j);
-            if (j < N) {
-            printf(" "); 
-        }
-        }
-    } {
-        printf("%d", i);
-        if (i < N) {
-            printf(" "); 
-        }
     }
-    
+    else {
+        for (int i = 0 ; i <= n ; i--){
+            printf("%d", i);
+            if (i < N) {
+            printf(" "); 
+    }
+}
+    }
     printf("\n");
     return 0;
 }
