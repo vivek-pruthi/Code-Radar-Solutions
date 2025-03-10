@@ -4,7 +4,7 @@ int main() {
     char N;
     scanf("%c", &N); // Read the number of rows
 
-    for (char i = A; i <= N; i++) { // Loop for rows in reverse order
+    for (char i = 1; i <= N; i++) { // Loop for rows in reverse order
         for (char j = 1; j <= i; j++) { // Loop for numbers in each row
             printf("%c ", j);
         }
