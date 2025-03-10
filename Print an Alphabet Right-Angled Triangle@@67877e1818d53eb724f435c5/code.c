@@ -2,7 +2,7 @@
 
 int main() {
     int N;
-    scanf("%c", &N); // Read the number of rows
+    scanf("%d", &N); // Read the number of rows
 
     for (int i = 1; i <= N; i++) { // Loop for rows in reverse order
         for (char j = 'A'; j <= 'A' + i; j++) { // Loop for numbers in each row
