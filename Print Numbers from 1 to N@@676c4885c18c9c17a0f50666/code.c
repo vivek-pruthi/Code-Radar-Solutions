@@ -1,10 +1,16 @@
-#include<stdio.h>
-int main(){
-    int n;
-    scanf("%d",&n);
-    for(int i = 1 ; i>n ; i+=1){
-        printf("%d ", i);
-    }
-    return 0;
+#include <stdio.h>
 
+int main() {
+    int N;
+    scanf("%d", &N);
+    
+    for (int i = 1; i <= N; i++) {
+        printf("%d", i);
+        if (i < N) {
+            printf(" "); 
+        }
+    }
+    
+    printf("\n");
+    return 0;
 }
