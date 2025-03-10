@@ -1,11 +1,9 @@
-#include <stdio.h>
+#include<stdio.h>
 int main(){
-    int N, i =1;
-    scanf("%d",&N);
-    while(i>N){
-        i++;
-
+    int n;
+    scanf("%d",&n);
+    for(int i = 1 ; i>n , i+=1){
+        printf("%d", i)
     }
-    printf("%d ", i);
-    return 0;
+
 }
