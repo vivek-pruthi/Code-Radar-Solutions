@@ -1,7 +1,7 @@
 int fibonacciSeries(int n){
     int a=0, b=1;
     int c;
-    if(n=1){
+    if(n==1){
         printf("0");
     }
     else{
