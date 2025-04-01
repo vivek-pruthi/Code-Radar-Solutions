@@ -2,7 +2,6 @@
 
 int main() {
     int N;
-    printf("Enter the number of rows: ");
     scanf("%d", &N);
 
     // Outer loop for each row
