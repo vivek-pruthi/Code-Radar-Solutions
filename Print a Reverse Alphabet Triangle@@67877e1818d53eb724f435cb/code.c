@@ -10,7 +10,7 @@ int main() {
         // Inner loop for printing characters in each row
         for (int j = 1; j <= i; j++) {
             // Printing the alphabet starting from 'A'
-            printf("%c", 'A' + j - 1);
+            printf("%c ", 'A' + j - 1);
         }
         // Newline after each row
         printf("\n");
