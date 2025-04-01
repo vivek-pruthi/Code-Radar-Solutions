@@ -11,7 +11,7 @@ int main() {
         }
         
         // Print the row number
-        for (int j = 1; j <= (2 * i - 1); j++) {
+        for (int j = 1; j <=i ; j++) {
             printf("%d", i);
         }
         
