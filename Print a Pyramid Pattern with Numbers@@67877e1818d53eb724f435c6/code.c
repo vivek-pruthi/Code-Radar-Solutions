@@ -12,7 +12,7 @@ int main() {
         
         // Print numbers in increasing order
         for (int j = 1; j <= (2 * i - 1); j++) {
-            printf("%d", j);
+            printf("%d ", j);
         }
         
         printf("\n");
