@@ -10,9 +10,9 @@ int main() {
             printf(" ");
         }
         
-        // Print the row number
-        for (int j = 1; j <=i ; j++) {
-            printf("%d", i);
+        // Print numbers in increasing order
+        for (int j = 1; j <= i; j++) {
+            printf("%d ", j);
         }
         
         printf("\n");
